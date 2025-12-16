@@ -9,441 +9,683 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Навигация -->
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">Web 3.0 Tech</div>
-            <ul class="nav-menu">
-                <li><a href="#intro">Введение</a></li>
-                <li><a href="#digital-economy">Цифровая экономика</a></li>
-                <li><a href="#industry">Индустрия 4.0</a></li>
-                <li><a href="#web3">Web 3.0</a></li>
-                <li><a href="#networks">Сети</a></li>
-                <li><a href="#fintech">Финтех</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+
+<nav id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">Web 3.0 Tech</div>
+        <ul class="nav-menu">
+            <li><a href="#intro">Введение</a></li>
+            <li><a href="#digital-economy">Цифровая экономика</a></li>
+            <li><a href="#industry">Индустрия 4.0</a></li>
+            <li><a href="#web3">Web 3.0</a></li>
+            <li><a href="#networks">Сети</a></li>
+            <li><a href="#fintech">Финтех</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+<section class="toc-section">
+    <div class="container">
+        <h2>Содержание</h2>
+        <div class="toc-grid">
+            <div class="toc-item" onclick="scrollToSection('intro')">
+                <i class="fas fa-play-circle"></i>
+                <span>Введение</span>
+            </div>
+            <div class="toc-item" onclick="scrollToSection('digital-economy')">
+                <i class="fas fa-chart-line"></i>
+                <span>Цифровая экономика</span>
+            </div>
+            <div class="toc-item" onclick="scrollToSection('industry')">
+                <i class="fas fa-industry"></i>
+                <span>Индустрия 4.0</span>
+            </div>
+            <div class="toc-item" onclick="scrollToSection('web3')">
+                <i class="fab fa-ethereum"></i>
+                <span>Web 3.0</span>
+            </div>
+            <div class="toc-item" onclick="scrollToSection('networks')">
+                <i class="fas fa-network-wired"></i>
+                <span>Децентрализованные сети</span>
+            </div>
+            <div class="toc-item" onclick="scrollToSection('fintech')">
+                <i class="fas fa-university"></i>
+                <span>Финтех</span>
             </div>
         </div>
-    </nav>
+    </div>
+</section>
 
-    <!-- Герой секция -->
-    <!--<header class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Web 3.0, Индустрия 4.0 и Цифровая Экономика</h1>
-            <p class="hero-subtitle">Как современные технологии меняют наш мир</p>
-            <button class="cta-button" onclick="scrollToSection('intro')">
-                Исследовать <i class="fas fa-arrow-down"></i>
-            </button>
-        </div>
-        <div class="hero-animation">
-            <div class="floating-shape shape1"></div>
-            <div class="floating-shape shape2"></div>
-            <div class="floating-shape shape3"></div>
-        </div>
-    </header>-->
+<main class="main-content">
 
-    <!-- Оглавление -->
-    <section class="toc-section">
-        <div class="container">
-            <h2>Содержание</h2>
-            <div class="toc-grid">
-                <div class="toc-item" onclick="scrollToSection('intro')">
-                    <i class="fas fa-play-circle"></i>
-                    <span>Введение</span>
-                </div>
-                <div class="toc-item" onclick="scrollToSection('digital-economy')">
-                    <i class="fas fa-chart-line"></i>
-                    <span>Цифровая экономика</span>
-                </div>
-                <div class="toc-item" onclick="scrollToSection('industry')">
-                    <i class="fas fa-industry"></i>
-                    <span>Индустрия 4.0</span>
-                </div>
-                <div class="toc-item" onclick="scrollToSection('web3')">
-                    <i class="fab fa-ethereum"></i>
-                    <span>Web 3.0</span>
-                </div>
-                <div class="toc-item" onclick="scrollToSection('networks')">
-                    <i class="fas fa-network-wired"></i>
-                    <span>Децентрализованные сети</span>
-                </div>
-                <div class="toc-item" onclick="scrollToSection('fintech')">
-                    <i class="fas fa-university"></i>
-                    <span>Финтех и Web 3.0</span>
-                </div>
+<section id="intro" class="content-section">
+    <div class="container">
+        <h2>Введение</h2>
+
+        <div class="content-grid">
+            <div class="text-content">
+                <p>
+                    В XXI веке информационно-коммуникационные технологии стали ключевым фактором
+                    социально-экономического развития государств, компаний и отдельных граждан.
+                    Процессы цифровизации затрагивают практически все сферы общественной жизни:
+                    промышленность, финансы, образование, здравоохранение, государственное управление
+                    и повседневную деятельность людей.
+                </p>
+
+                <p>
+                    Под цифровизацией понимается системное внедрение цифровых технологий,
+                    направленное на повышение эффективности процессов, снижение издержек,
+                    улучшение качества услуг и создание новых экономических моделей.
+                    Развитие интернета, мобильных сетей связи, облачных вычислений и искусственного
+                    интеллекта привело к формированию глобального цифрового пространства,
+                    в котором информация становится ключевым ресурсом.
+                </p>
+
+                <p>
+                    Особое значение цифровизация приобрела в контексте глобализации экономики.
+                    Современные компании вынуждены адаптироваться к высокой скорости изменений,
+                    усиливающейся конкуренции и росту требований со стороны потребителей.
+                    Использование цифровых платформ позволяет организациям масштабировать бизнес,
+                    выходить на международные рынки и формировать новые формы взаимодействия
+                    с клиентами и партнёрами.
+                </p>
+
+                <p>
+                    Важную роль в цифровой трансформации играют такие технологии, как интернет вещей (IoT),
+                    большие данные (Big Data), машинное обучение, блокчейн и распределённые реестры.
+                    Эти инструменты обеспечивают сбор, обработку и анализ огромных массивов данных,
+                    что позволяет принимать более обоснованные управленческие решения и
+                    автоматизировать сложные процессы.
+                </p>
+
+                <p>
+                    В рамках данной работы рассматриваются ключевые направления цифровой трансформации:
+                    цифровая экономика, концепция Индустрии 4.0, развитие Web 3.0, а также роль
+                    децентрализованных сетей и финтех-технологий.
+                    Особое внимание уделяется практическому применению данных концепций
+                    и их влиянию на современную экономику.
+                </p>
+            </div>
+
+            <div class="visual-content">
+                <img
+                    src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                    alt="Цифровые технологии"
+                    style="width:100%; border-radius:15px; margin-bottom:20px;"
+                >
+                <img
+                    src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+                    alt="Глобальная цифровизация"
+                    style="width:100%; border-radius:15px;"
+                >
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Основное содержание -->
-    <main class="main-content">
-        <!-- Введение -->
-        <section id="intro" class="content-section">
-            <div class="container">
-                <h2>Введение</h2>
-                <div class="content-grid">
-                    <div class="text-content">
-                        <p>Современное состояние развития информационно-коммуникационных технологий характеризуется повсеместной цифровизацией — быстрым распространением интернета, мобильных устройств и облачных сервисов.</p>
-                        
-                        <div class="tech-highlights">
-                            <div class="tech-item">
-                                <i class="fas fa-wifi"></i>
-                                <h4>Интернет вещей (IoT)</h4>
-                                <p>Миллионы взаимосвязанных датчиков и «умных» устройств</p>
-                            </div>
-                            <div class="tech-item">
-                                <i class="fas fa-cloud"></i>
-                                <h4>Облачные вычисления</h4>
-                                <p>Удалённый доступ к вычислительным ресурсам и хранилищам</p>
-                            </div>
-                            <div class="tech-item">
-                                <i class="fas fa-brain"></i>
-                                <h4>Искусственный интеллект</h4>
-                                <p>Анализ больших данных и автоматизация принятия решений</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="visual-content">
-                        <div class="stats-card">
-                            <h4>Технологический прогресс</h4>
-                            <div class="stat-item">
-                                <span>Рост данных к 2025</span>
-                                <div class="stat-bar">
-                                    <div class="stat-progress" style="width: 85%"></div>
-                                </div>
-                                <span>85%</span>
-                            </div>
-                            <div class="stat-item">
-                                <span>Покрытие 5G</span>
-                                <div class="stat-bar">
-                                    <div class="stat-progress" style="width: 65%"></div>
-                                </div>
-                                <span>65%</span>
-                            </div>
-                            <div class="stat-item">
-                                <span>ИИ внедрение</span>
-                                <div class="stat-bar">
-                                    <div class="stat-progress" style="width: 72%"></div>
-                                </div>
-                                <span>72%</span>
-                            </div>
-                        </div>
-                    </div>
+<section id="digital-economy" class="content-section alt-bg">
+    <div class="container">
+        <h2>Цифровая экономика и цифровизация процессов</h2>
+
+        <p>
+            Цифровая экономика представляет собой систему экономических, социальных и культурных
+            отношений, основанных на использовании цифровых технологий и данных.
+            В условиях цифровой экономики информация становится основным производственным ресурсом,
+            а цифровые платформы — ключевым элементом инфраструктуры.
+        </p>
+
+        <p>
+            Развитие цифровой экономики приводит к трансформации традиционных отраслей.
+            Производственные компании внедряют автоматизированные системы управления,
+            торговые организации переходят к электронной коммерции,
+            а финансовый сектор активно использует онлайн-сервисы и мобильные приложения.
+            Это позволяет значительно сократить временные и финансовые затраты,
+            а также повысить доступность товаров и услуг.
+        </p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <div class="timeline-content">
+                    <h4>Финансовый сектор</h4>
+                    <p>
+                        В финансовой сфере цифровизация проявляется в развитии электронных платежей,
+                        интернет-банкинга, мобильных кошельков и криптовалют.
+                        Банковские операции становятся доступными в режиме 24/7,
+                        а использование цифровых каналов снижает нагрузку на традиционные офисы.
+                    </p>
                 </div>
             </div>
-        </section>
 
-        <!-- Цифровая экономика -->
-        <section id="digital-economy" class="content-section alt-bg">
-            <div class="container">
-                <h2>Цифровая экономика и цифровизация процессов</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-money-bill-wave"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>Финансовый сектор</h4>
-                            <p>Электронные платежи, интернет-банкинг, криптовалюты и платёжные системы делают финансовые услуги более доступными и быстрыми.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>Торговля</h4>
-                            <p>Интернет-магазины и маркетплейсы расширяют рынки, а мобильные приложения позволяют совершать покупки онлайн.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>Образование</h4>
-                            <p>Дистанционное и смешанное обучение, онлайн-университеты и цифровые библиотеки делают знания доступными в любой точке мира.</p>
-                        </div>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="timeline-content">
+                    <h4>Торговля и сервисы</h4>
+                    <p>
+                        Электронная коммерция и маркетплейсы позволяют компаниям выходить
+                        на глобальный рынок, а потребителям — получать доступ к широкому ассортименту
+                        товаров и услуг.
+                        Аналитика пользовательских данных используется для персонализации предложений
+                        и повышения лояльности клиентов.
+                    </p>
                 </div>
             </div>
-        </section>
 
-        <!-- Индустрия 4.0 -->
-        <section id="industry" class="content-section">
-            <div class="container">
-                <h2>Индустрия 4.0</h2>
-                <div class="industry-grid">
-                    <div class="industry-text">
-                        <p>Концепция четвёртой промышленной революции, основанная на автоматизации и интеграции производственных процессов с цифровыми технологиями.</p>
-                        <div class="feature-list">
-                            <div class="feature-item">
-                                <i class="fas fa-robot"></i>
-                                <span>Промышленные роботы</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-print"></i>
-                                <span>3D-печать</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-vr-cardboard"></i>
-                                <span>VR/AR технологии</span>
-                            </div>
-                            <div class="feature-item">
-                                <i class="fas fa-database"></i>
-                                <span>Большие данные</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="industry-visual">
-                        <div class="smart-factory">
-                            <div class="factory-layer layer1">
-                                <div class="machine"></div>
-                                <div class="conveyor"></div>
-                            </div>
-                            <div class="factory-layer layer2">
-                                <div class="sensor"></div>
-                                <div class="robot"></div>
-                            </div>
-                            <div class="data-flow"></div>
-                        </div>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content">
+                    <h4>Образование</h4>
+                    <p>
+                        В образовательной сфере цифровые технологии обеспечивают развитие
+                        дистанционного и смешанного обучения.
+                        Онлайн-платформы, цифровые библиотеки и виртуальные лаборатории
+                        делают знания доступными независимо от географического положения обучающихся.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- Web 3.0 -->
-        <section id="web3" class="content-section dark-bg">
-            <div class="container">
-                <h2>Web 3.0 - Децентрализованный интернет</h2>
-                <div class="web3-comparison">
-                    <div class="comparison-item web2">
-                        <h4>Web 2.0</h4>
-                        <div class="architecture central"></div>
-                        <ul>
-                            <li>Централизованные серверы</li>
-                            <li>Контроль корпораций</li>
-                            <li>Монетизация данных</li>
-                            <li>Единые точки отказа</li>
-                        </ul>
+        <div style="margin-top:40px;">
+            <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+                alt="Цифровая экономика"
+                style="width:100%; border-radius:15px; margin-bottom:20px;"
+            >
+            <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+                alt="Аналитика и данные"
+                style="width:100%; border-radius:15px;"
+            >
+        </div>
+
+        <p style="margin-top:30px;">
+            Важным аспектом цифровой экономики является формирование цифровых экосистем,
+            в которых взаимодействуют государственные структуры, бизнес и граждане.
+            Государство выступает не только регулятором, но и активным участником цифровых процессов,
+            развивая электронные государственные услуги и цифровую инфраструктуру.
+        </p>
+
+        <p>
+            Таким образом, цифровая экономика является фундаментом для дальнейшего развития
+            Индустрии 4.0, Web 3.0 и финтех-технологий, формируя условия для устойчивого роста
+            и инновационного развития общества.
+        </p>
+    </div>
+</section>
+
+<section id="industry" class="content-section">
+    <div class="container">
+        <h2>Индустрия 4.0</h2>
+
+        <div class="industry-grid">
+            <div class="industry-text">
+                <p>
+                    Индустрия 4.0 представляет собой концепцию четвёртой промышленной революции,
+                    основанной на глубокой интеграции цифровых технологий в производственные процессы.
+                    Основной целью данной концепции является создание «умных» производств,
+                    способных самостоятельно адаптироваться к изменениям внешней среды,
+                    оптимизировать ресурсы и повышать эффективность работы.
+                </p>
+
+                <p>
+                    Ключевой особенностью Индустрии 4.0 является переход от автоматизации отдельных
+                    операций к комплексной цифровой трансформации всего производственного цикла.
+                    Производственные системы объединяются в единую цифровую среду,
+                    где оборудование, программное обеспечение и персонал взаимодействуют
+                    в режиме реального времени.
+                </p>
+
+                <p>
+                    Важную роль в реализации Индустрии 4.0 играют киберфизические системы,
+                    которые объединяют физические объекты и цифровые модели.
+                    Такие системы позволяют осуществлять мониторинг состояния оборудования,
+                    прогнозировать неисправности и предотвращать аварийные ситуации.
+                </p>
+
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <i class="fas fa-robot"></i>
+                        <span>Промышленные роботы и автоматизация</span>
                     </div>
-                    <div class="comparison-arrow">
-                        <i class="fas fa-arrow-right"></i>
+                    <div class="feature-item">
+                        <i class="fas fa-print"></i>
+                        <span>Аддитивные технологии и 3D-печать</span>
                     </div>
-                    <div class="comparison-item web3">
-                        <h4>Web 3.0</h4>
-                        <div class="architecture decentralized"></div>
-                        <ul>
-                            <li>Децентрализованные сети</li>
-                            <li>Контроль пользователей</li>
-                            <li>Прозрачность</li>
-                            <li>Устойчивость</li>
-                        </ul>
+                    <div class="feature-item">
+                        <i class="fas fa-vr-cardboard"></i>
+                        <span>Виртуальная и дополненная реальность</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-database"></i>
+                        <span>Большие данные и аналитика</span>
                     </div>
                 </div>
 
-                <div class="web3-features">
-                    <div class="feature-card">
-                        <i class="fab fa-bitcoin"></i>
-                        <h4>Блокчейн</h4>
-                        <p>Криптографически защищённые транзакции</p>
-                    </div>
-                    <div class="feature-card">
-                        <i class="fas fa-code"></i>
-                        <h4>DApps</h4>
-                        <p>Децентрализованные приложения</p>
-                    </div>
-                    <div class="feature-card">
-                        <i class="fas fa-coins"></i>
-                        <h4>DeFi</h4>
-                        <p>Децентрализованные финансы</p>
-                    </div>
-                    <div class="feature-card">
-                        <i class="fas fa-user-shield"></i>
-                        <h4>Privacy</h4>
-                        <p>Защита персональных данных</p>
-                    </div>
+                <p>
+                    Применение промышленных роботов позволяет значительно повысить точность,
+                    скорость и безопасность производственных операций.
+                    Роботы используются в автомобильной промышленности, электронике,
+                    металлургии и других отраслях, где требуется высокая повторяемость действий.
+                </p>
+
+                <p>
+                    Аддитивные технологии, включая 3D-печать, открывают новые возможности
+                    для создания сложных деталей и прототипов.
+                    Это снижает затраты на производство, сокращает время вывода продукции на рынок
+                    и позволяет изготавливать изделия с уникальными характеристиками.
+                </p>
+
+                <p>
+                    Виртуальная и дополненная реальность применяются для обучения персонала,
+                    проектирования производственных линий и проведения технического обслуживания.
+                    Использование VR и AR позволяет моделировать сложные ситуации без риска
+                    для оборудования и сотрудников.
+                </p>
+
+                <p>
+                    Большие данные и аналитика являются основой принятия управленческих решений
+                    в условиях Индустрии 4.0.
+                    Сбор данных с датчиков и производственного оборудования позволяет выявлять
+                    закономерности, оптимизировать процессы и прогнозировать спрос.
+                </p>
+            </div>
+
+            <div class="industry-visual">
+                <img
+                    src="https://images.unsplash.com/photo-1581092160562-40aa08e78837"
+                    alt="Умное производство"
+                    style="width:100%; border-radius:15px; margin-bottom:20px;"
+                >
+                <img
+                    src="https://images.unsplash.com/photo-1581090700227-1e37b190418e"
+                    alt="Промышленные роботы"
+                    style="width:100%; border-radius:15px;"
+                >
+            </div>
+        </div>
+
+        <p style="margin-top:30px;">
+            Внедрение Индустрии 4.0 требует значительных инвестиций в инфраструктуру,
+            программное обеспечение и подготовку кадров.
+            Однако в долгосрочной перспективе такие вложения обеспечивают рост производительности,
+            повышение конкурентоспособности и устойчивое развитие промышленности.
+        </p>
+
+        <p>
+            В России элементы Индустрии 4.0 активно внедряются в машиностроении,
+            энергетике, нефтегазовой отрасли и логистике.
+            Государственные программы цифровой трансформации направлены на поддержку
+            инновационных проектов и развитие отечественных технологий.
+        </p>
+    </div>
+</section>
+
+<section id="web3" class="content-section dark-bg">
+    <div class="container">
+        <h2>Web 3.0 — децентрализованный интернет</h2>
+
+        <p>
+            Web 3.0 представляет собой новую парадигму развития интернета,
+            ориентированную на децентрализацию, прозрачность и контроль данных со стороны пользователей.
+            В отличие от Web 2.0, где доминируют крупные цифровые платформы,
+            Web 3.0 предполагает распределённую архитектуру и использование блокчейн-технологий.
+        </p>
+
+        <p>
+            Основной идеей Web 3.0 является отказ от централизованных посредников.
+            Данные пользователей хранятся в распределённых сетях,
+            а взаимодействие между участниками осуществляется напрямую
+            с использованием смарт-контрактов.
+        </p>
+
+        <div class="web3-comparison">
+            <div class="comparison-item web2">
+                <h4>Web 2.0</h4>
+                <ul>
+                    <li>Централизованные серверы</li>
+                    <li>Контроль со стороны корпораций</li>
+                    <li>Монетизация пользовательских данных</li>
+                    <li>Уязвимость к сбоям и цензуре</li>
+                </ul>
+            </div>
+
+            <div class="comparison-item web3">
+                <h4>Web 3.0</h4>
+                <ul>
+                    <li>Децентрализованные сети</li>
+                    <li>Контроль данных пользователями</li>
+                    <li>Прозрачные алгоритмы</li>
+                    <li>Повышенная устойчивость</li>
+                </ul>
+            </div>
+        </div>
+
+        <p>
+            Технологической основой Web 3.0 является блокчейн —
+            распределённый реестр, обеспечивающий неизменность и прозрачность данных.
+            Блокчейн используется не только для криптовалют,
+            но и для создания децентрализованных приложений (DApps),
+            цифровых идентификаторов и систем управления.
+        </p>
+
+        <div class="web3-features">
+            <div class="feature-card">
+                <i class="fab fa-bitcoin"></i>
+                <h4>Блокчейн</h4>
+                <p>
+                    Обеспечивает надёжное хранение данных и проведение транзакций
+                    без участия централизованных посредников.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-code"></i>
+                <h4>DApps</h4>
+                <p>
+                    Децентрализованные приложения работают на основе смарт-контрактов
+                    и не зависят от единого сервера.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-coins"></i>
+                <h4>DeFi</h4>
+                <p>
+                    Децентрализованные финансы позволяют осуществлять кредитование,
+                    обмен и инвестирование без традиционных банков.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-user-shield"></i>
+                <h4>Конфиденциальность</h4>
+                <p>
+                    Пользователи получают больший контроль над своими персональными данными
+                    и цифровой идентичностью.
+                </p>
+            </div>
+        </div>
+
+        <div style="margin-top:40px;">
+            <img
+                src="https://images.unsplash.com/photo-1639322537228-f710d846310a"
+                alt="Блокчейн и Web 3.0"
+                style="width:100%; border-radius:15px; margin-bottom:20px;"
+            >
+        </div>
+
+        <p style="margin-top:30px;">
+            Несмотря на перспективность Web 3.0, данная концепция сталкивается
+            с рядом вызовов, включая проблемы масштабируемости,
+            высокое энергопотребление некоторых блокчейн-сетей
+            и необходимость правового регулирования.
+        </p>
+
+        <p>
+            Тем не менее, развитие Web 3.0 открывает новые возможности
+            для построения более справедливой и устойчивой цифровой экономики,
+            в которой пользователи становятся полноценными участниками
+            цифровых экосистем.
+        </p>
+    </div>
+</section>
+
+<section id="networks" class="content-section">
+    <div class="container">
+        <h2>Децентрализованные и распределённые сети</h2>
+
+        <p>
+            Децентрализованные и распределённые сети являются важнейшим элементом
+            современной цифровой инфраструктуры и лежат в основе развития Web 3.0.
+            В отличие от централизованных архитектур, где управление и хранение данных
+            сосредоточены в одном или нескольких узлах, распределённые сети предполагают
+            равноправие участников и отсутствие единого центра управления.
+        </p>
+
+        <p>
+            Основным преимуществом децентрализованных сетей является их высокая устойчивость
+            к отказам. Выход из строя одного или нескольких узлов не приводит к полной
+            остановке системы, так как функции перераспределяются между оставшимися участниками.
+            Это особенно важно для критически важных сервисов и инфраструктур.
+        </p>
+
+        <div class="pros-cons">
+            <div class="pros">
+                <h4><i class="fas fa-check-circle"></i> Преимущества</h4>
+                <ul>
+                    <li>Высокая отказоустойчивость</li>
+                    <li>Отсутствие единой точки отказа</li>
+                    <li>Устойчивость к цензуре и внешнему давлению</li>
+                    <li>Прозрачность операций и процессов</li>
+                    <li>Распределённое управление</li>
+                </ul>
+            </div>
+
+            <div class="cons">
+                <h4><i class="fas fa-exclamation-triangle"></i> Ограничения</h4>
+                <ul>
+                    <li>Ограниченная масштабируемость</li>
+                    <li>Сложность реализации и поддержки</li>
+                    <li>Низкая скорость обработки транзакций</li>
+                    <li>Проблемы совместимости</li>
+                    <li>Регуляторные и правовые риски</li>
+                </ul>
+            </div>
+        </div>
+
+        <p>
+            Одним из наиболее известных примеров децентрализованных сетей является
+            блокчейн, который используется для хранения данных о транзакциях
+            в криптовалютах и децентрализованных приложениях.
+            Однако распределённые сети применяются и в других областях,
+            включая хранение данных, коммуникации и управление цифровыми идентификаторами.
+        </p>
+
+        <div class="case-studies">
+            <h3>Практические примеры</h3>
+
+            <div class="case-grid">
+                <div class="case-card">
+                    <h5>IPFS</h5>
+                    <p>
+                        Межпланетная файловая система (IPFS) представляет собой
+                        распределённую сеть для хранения и передачи данных,
+                        в которой файлы адресуются по их содержимому, а не по местоположению.
+                    </p>
+                </div>
+
+                <div class="case-card">
+                    <h5>Ethereum</h5>
+                    <p>
+                        Платформа для создания смарт-контрактов и децентрализованных приложений,
+                        позволяющая автоматизировать выполнение условий соглашений
+                        без участия посредников.
+                    </p>
+                </div>
+
+                <div class="case-card">
+                    <h5>Mastodon</h5>
+                    <p>
+                        Децентрализованная социальная сеть, в которой пользователи
+                        могут создавать собственные серверы и управлять правилами взаимодействия.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- Децентрализованные сети -->
-        <section id="networks" class="content-section">
-            <div class="container">
-                <h2>Децентрализованные и распределённые сети</h2>
-                <div class="networks-content">
-                    <div class="pros-cons">
-                        <div class="pros">
-                            <h4><i class="fas fa-check-circle"></i> Преимущества</h4>
-                            <ul>
-                                <li>Отказоустойчивость</li>
-                                <li>Устойчивость к цензуре</li>
-                                <li>Распределённое управление</li>
-                                <li>Прозрачность и безопасность</li>
-                            </ul>
-                        </div>
-                        <div class="cons">
-                            <h4><i class="fas fa-exclamation-triangle"></i> Ограничения</h4>
-                            <ul>
-                                <li>Масштабируемость</li>
-                                <li>Скорость и производительность</li>
-                                <li>Сложность реализации</li>
-                                <li>Регуляторные риски</li>
-                            </ul>
-                        </div>
-                    </div>
+        <div style="margin-top:40px;">
+            <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                alt="Распределённые сети"
+                style="width:100%; border-radius:15px; margin-bottom:20px;"
+            >
+            <img
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+                alt="Децентрализация"
+                style="width:100%; border-radius:15px;"
+            >
+        </div>
+    </div>
+</section>
 
-                    <div class="case-studies">
-                        <h3>Практические кейсы</h3>
-                        <div class="case-grid">
-                            <div class="case-card">
-                                <h5>IPFS</h5>
-                                <p>Межпланетная файловая система для децентрализованного хранения</p>
-                                <a href="https://ipfs.tech" target="_blank" class="case-link">
-                                    Исследовать <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                            <div class="case-card">
-                                <h5>Ethereum</h5>
-                                <p>Платформа для смарт-контрактов и DApps</p>
-                                <a href="https://ethereum.org" target="_blank" class="case-link">
-                                    Исследовать <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                            <div class="case-card">
-                                <h5>Mastodon</h5>
-                                <p>Децентрализованная социальная сеть</p>
-                                <a href="https://joinmastodon.org" target="_blank" class="case-link">
-                                    Исследовать <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<section id="fintech" class="content-section alt-bg">
+    <div class="container">
+        <h2>Финтех и Web 3.0 в банковском секторе</h2>
+
+        <p>
+            Финансовые технологии (финтех) являются одной из наиболее динамично развивающихся
+            областей цифровой экономики. Использование цифровых решений в финансовом секторе
+            позволяет значительно повысить доступность финансовых услуг,
+            снизить операционные издержки и улучшить пользовательский опыт.
+        </p>
+
+        <p>
+            В последние годы особое внимание уделяется интеграции финтеха
+            с технологиями Web 3.0. Блокчейн, смарт-контракты и децентрализованные финансы (DeFi)
+            формируют новые модели взаимодействия между участниками финансового рынка,
+            снижая зависимость от традиционных посредников.
+        </p>
+
+        <div class="finance-stats">
+            <div class="stat-card">
+                <h3>827 млрд ₽</h3>
+                <p>Объём криптоактивов россиян</p>
             </div>
-        </section>
-
-        <!-- Финтех и Web 3.0 -->
-        <section id="fintech" class="content-section alt-bg">
-            <div class="container">
-                <h2>Финтех и Web 3.0 в банковском секторе</h2>
-                
-                <div class="finance-stats">
-                    <div class="stat-card">
-                        <h3>827 млрд ₽</h3>
-                        <p>Объем криптоактивов россиян (2025)</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>27%</h3>
-                        <p>Рост за полгода</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>10 трлн ₽</h3>
-                        <p>Прогноз рынка ЦФА через 5 лет</p>
-                    </div>
-                </div>
-
-                <div class="tech-stack">
-                    <h3>Ключевые технологии для банков и бирж</h3>
-                    <div class="tech-grid">
-                        <div class="tech-card">
-                            <i class="fas fa-link"></i>
-                            <h4>Блокчейн</h4>
-                            <p>Токенизация активов, смарт-контракты</p>
-                        </div>
-                        <div class="tech-card">
-                            <i class="fas fa-brain"></i>
-                            <h4>Искусственный интеллект</h4>
-                            <p>Скоринг, борьба с мошенничеством</p>
-                        </div>
-                        <div class="tech-card">
-                            <i class="fas fa-cloud"></i>
-                            <h4>Облачные технологии</h4>
-                            <p>Масштабируемость и гибкость</p>
-                        </div>
-                        <div class="tech-card">
-                            <i class="fas fa-shield-alt"></i>
-                            <h4>Кибербезопасность</h4>
-                            <p>Защита данных и транзакций</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="research-links">
-                    <h3>Исследования и статьи</h3>
-                    <div class="links-grid">
-                        <a href="https://www.cbr.ru/fintech/" target="_blank" class="research-link">
-                            <i class="fas fa-external-link-alt"></i>
-                            <span>Развитие финтеха - Банк России</span>
-                        </a>
-                        <a href="https://trends.rbc.ru/trends/industry/65a77d849a7947b3cbde2275" target="_blank" class="research-link">
-                            <i class="fas fa-external-link-alt"></i>
-                            <span>FinTech-тренды 2024 - РБК</span>
-                        </a>
-                        <a href="https://www.rbc.ru/quote/news/article/68e783b59a794706eb3f829b" target="_blank" class="research-link">
-                            <i class="fas fa-external-link-alt"></i>
-                            <span>Токенизация акций - РБК</span>
-                        </a>
-                    </div>
-                </div>
+            <div class="stat-card">
+                <h3>27%</h3>
+                <p>Рост рынка за полгода</p>
             </div>
-        </section>
-    </main>
+            <div class="stat-card">
+                <h3>10 трлн ₽</h3>
+                <p>Прогноз рынка ЦФА через 5 лет</p>
+            </div>
+        </div>
 
-    <!-- Выводы -->
-    <section class="conclusions">
-        <div class="container">
-            <h2>Основные выводы</h2>
-            <div class="conclusions-grid">
-                <div class="conclusion-card">
-                    <i class="fas fa-microchip"></i>
-                    <h4>ИТ - основа трансформации</h4>
-                    <p>Современные технологии являются фундаментом цифровой трансформации экономики и общества</p>
+        <p>
+            Банковские организации активно внедряют технологии искусственного интеллекта
+            для скоринга клиентов, выявления мошеннических операций
+            и персонализации финансовых продуктов.
+            Облачные технологии обеспечивают масштабируемость
+            и гибкость финансовых сервисов.
+        </p>
+
+        <div class="tech-stack">
+            <h3>Ключевые технологии финтеха</h3>
+
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="fas fa-link"></i>
+                    <h4>Блокчейн</h4>
+                    <p>Токенизация активов и смарт-контракты</p>
                 </div>
-                <div class="conclusion-card">
-                    <i class="fas fa-project-diagram"></i>
-                    <h4>Децентрализация</h4>
-                    <p>Web 3.0 предлагает новый подход к организации сервисов и взаимодействия пользователей</p>
+
+                <div class="tech-card">
+                    <i class="fas fa-brain"></i>
+                    <h4>Искусственный интеллект</h4>
+                    <p>Кредитный скоринг и анализ рисков</p>
                 </div>
-                <div class="conclusion-card">
+
+                <div class="tech-card">
+                    <i class="fas fa-cloud"></i>
+                    <h4>Облачные технологии</h4>
+                    <p>Масштабируемость и доступность сервисов</p>
+                </div>
+
+                <div class="tech-card">
                     <i class="fas fa-shield-alt"></i>
-                    <h4>Безопасность и устойчивость</h4>
-                    <p>Децентрализованные сети обеспечивают отказоустойчивость и цифровую независимость</p>
-                </div>
-                <div class="conclusion-card">
-                    <i class="fas fa-chart-bar"></i>
-                    <h4>Лидерство финансового сектора</h4>
-                    <p>Банковский и биржевой секторы являются пионерами внедрения Web 3.0 в России</p>
+                    <h4>Кибербезопасность</h4>
+                    <p>Защита данных и транзакций</p>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Футер -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h4>Web 3.0 Technologies</h4>
-                    <p>Исследование современных интернет-технологий</p>
-                    <p>Зайцев И.В. | ИДМ-25-01 | МГТУ «СТАНКИН»</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Быстрые ссылки</h4>
-                    <a href="#intro">Введение</a>
-                    <a href="#web3">Web 3.0</a>
-                    <a href="#fintech">Финтех</a>
-                </div>
+        <p>
+            В России развитие финтеха осуществляется при активном участии государства.
+            Центральный банк Российской Федерации реализует проекты,
+            направленные на развитие цифрового рубля,
+            токенизацию активов и регулирование криптовалютного рынка.
+        </p>
+    </div>
+</section>
+
+<section class="conclusions">
+    <div class="container">
+        <h2>Основные выводы</h2>
+
+        <div class="conclusions-grid">
+            <div class="conclusion-card">
+                <i class="fas fa-microchip"></i>
+                <h4>Цифровые технологии</h4>
+                <p>
+                    Цифровые технологии являются фундаментом трансформации
+                    экономики и общества в XXI веке.
+                </p>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Все права защищены</p>
+
+            <div class="conclusion-card">
+                <i class="fas fa-project-diagram"></i>
+                <h4>Децентрализация</h4>
+                <p>
+                    Web 3.0 формирует новые модели взаимодействия пользователей
+                    и цифровых сервисов.
+                </p>
+            </div>
+
+            <div class="conclusion-card">
+                <i class="fas fa-shield-alt"></i>
+                <h4>Устойчивость</h4>
+                <p>
+                    Децентрализованные сети повышают надёжность
+                    и безопасность цифровых систем.
+                </p>
+            </div>
+
+            <div class="conclusion-card">
+                <i class="fas fa-chart-bar"></i>
+                <h4>Финансовый сектор</h4>
+                <p>
+                    Финтех является драйвером внедрения инноваций
+                    и Web 3.0-технологий.
+                </p>
             </div>
         </div>
-    </footer>
+    </div>
+</section>
 
-    <script src="script.js"></script>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h4>Web 3.0 Technologies</h4>
+                <p>Исследование современных цифровых технологий</p>
+                <p>Зайцев И.В. | ИДМ-25-01 | МГТУ «СТАНКИН»</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Быстрые ссылки</h4>
+                <a href="#intro">Введение</a>
+                <a href="#web3">Web 3.0</a>
+                <a href="#fintech">Финтех</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Все права защищены</p>
+        </div>
+    </div>
+</footer>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
